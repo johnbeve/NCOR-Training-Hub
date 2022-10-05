@@ -1,9 +1,34 @@
 # ICBO Template
-This repository is a template for creating ICBO conference repositories. To create a specific ICBO conference repository, see the [GitHub instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for how to create a repository from a template.
+This repository is a template for creating ICBO conference repositories. Instructions for using this template to create a specific ICBO conference repository is included below. For more speci instructions, see the [GitHub instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for how to create a repository from a template.
 
-The template is set up to use [mkdocs](https://www.mkdocs.org/) to configure a `github.io` website. The deployment of the website is controlled using the GitHub action `.github/workflows/build-deploy-documentation.yaml`. The GitHub action has been configured to run if any changes are made to mkdocs.yaml, files in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, or `docs/flash-talks/` directories, or after a pull request is merged. Using pull requests allows you to closely track changes made to the repository (if desired). The [icbo2022 conference repository](https://github.com/ICBO-conference/icbo2022) is an example of how a repository can be configured using [mkdocs](https://www.mkdocs.org/).
+Once your repository has been created, you are free to configure your ICBO repisitory as you desire. Any suggestions or contributions on how to make the instructions for (this) the template repository are welcome. 
 
-Below are some general instructions for how to add and edit website content. Once your repository has been created, you are free to configure your ICBO repisitory as you desire. Any suggestions or contributions on how to make the instructions for (this) the template repository are welcome. 
+## Using the template
+
+To create your repository, start by clicking the **Use this template** button:
+
+![use-this-template-button](readme-images/github-use-template-button.png)
+
+Next, fill in the name of your repository:
+
+![use-template-repo-name](readme-images/github-use-template-repo-name.png) 
+
+Be sure to mark your repository as **Public** and **Include all branches**:
+
+![use-template-config.](readme-images/github-use-template-config.png)
+
+This will deploy the website on the `gh-pages` branch of your repository. If for some reason the deployment branch is not in your repository, you can add it by going into the repository settings:
+
+![repo-settings](readme-images/github-repo-settings.png)
+
+selecting the **pages** content:
+
+![setting-pages](readme-images/github-setting-pages.png)
+
+and choosing/adding the branch on which to deploy the website:
+
+![pages-setting-gh-pages-branch](readme-images/github-pages-setting-gh-pages-branch.png)
+
 
 ## Add github.io website  
 To make website available, you have to associate the repository with a `github.io` website (e.g., [https://icbo-conference.github.io/icbo2022](https://icbo-conference.github.io/icbo2022)). The is done be clicking on the settings icon next to **About**:  
@@ -13,6 +38,9 @@ and then setting the necessary information for **Webpage**:
 
 ![about-setting-icon](readme-images/github-repo-webpage-setting.png)
 
+## Github mkdocs actions configuration
+
+The template is set up to use [mkdocs](https://www.mkdocs.org/) to configure a `github.io` website. The deployment of the website is controlled using the GitHub action `.github/workflows/build-deploy-documentation.yaml`. The GitHub action has been configured to run if any changes are made to mkdocs.yaml, files in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, or `docs/flash-talks/` directories, or after a pull request is merged. Using pull requests allows you to closely track changes made to the repository (if desired). The [icbo2022 conference repository](https://github.com/ICBO-conference/icbo2022) is an example of how a repository can be configured using [mkdocs](https://www.mkdocs.org/).
 
 ## Editing website content 
 
