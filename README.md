@@ -42,6 +42,28 @@ and then setting the necessary information for **Webpage**:
 
 The template is set up to use [mkdocs](https://www.mkdocs.org/) to configure a `github.io` website. The deployment of the website is controlled using the GitHub action `.github/workflows/build-deploy-documentation.yaml`. The GitHub action has been configured to run if any changes are made to mkdocs.yaml, files in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, or `docs/flash-talks/` directories, or after a pull request is merged. Using pull requests allows you to closely track changes made to the repository (if desired). The [icbo2022 conference repository](https://github.com/ICBO-conference/icbo2022) is an example of how a repository can be configured using [mkdocs](https://www.mkdocs.org/).
 
+## Default content 
+
+The template provides a set of default webpages in the `docs/` folder. These include:  
+```
+call-for-submissions.md  
+co-organizers.md  
+contact-information.md  
+icbo-hotels.md  
+icbo-registration.md  
+icbo-schedule.md  
+icbo-travel.md  
+keynote-speakers.md  
+papers-and-poster-abstracts.md  
+proceeding-publication-requirements.md  
+program-committee.md  
+submit-jbms-icbo.md  (optional)
+workshops-and-tutorials.md  
+```
+The content for the landing page is in the `index.md` file. You can add or remove content as needed (see below).  
+
+The website navigation menu is controlled by associating menu labels with markdown files in `mkdocs.yml` file.  
+
 ## Editing website content 
 
 The website content is contained in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, and `docs/flash-talks/` directories. Editing any of the `*.md` files or adding/changing an image **should** fire off an action to build and deploy the website. This GitHub action can be checked by navigating to the `Actions` page:
