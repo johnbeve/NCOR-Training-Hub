@@ -5,6 +5,14 @@ The template is set up to use [mkdocs](https://www.mkdocs.org/) to configure a `
 
 Below are some general instructions for how to add and edit website content. Once your repository has been created, you are free to configure your ICBO repisitory as you desire. Any suggestions or contributions on how to make the instructions for (this) the template repository are welcome. 
 
+## Add github.io website  
+To make website available, you have to associate the repository with a `github.io` website (e.g., [https://icbo-conference.github.io/icbo2022](https://icbo-conference.github.io/icbo2022)). The is done be clicking on the settings icon next to **About**:  
+![about-setting-icon](readme-images/github-repo-about-setting.png)
+
+and then setting the necessary information for **Webpage**:  
+![about-setting-icon](readme-images/github-repo-webpage-setting.png)
+
+
 ## Editing website content 
 
 The website content is contained in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, and `docs/flash-talks/` directories. Editing any of the `*.md` files or adding/changing an image **should** fire off an action to build and deploy the website. This GitHub action can be checked by navigating to the `Actions` page:
