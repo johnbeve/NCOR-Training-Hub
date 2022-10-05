@@ -7,7 +7,7 @@ Below are some general instructions for how to add and edit website content. Onc
 
 ## Editing website content 
 
-The website content is contained in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, and `docs/flash-talks/` directories. Editing any of the `*.md` files or adding/changing an image **should** fire off an action to build and deploy the website. This github action can be checked by navigating to the `Actions` page:
+The website content is contained in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, and `docs/flash-talks/` directories. Editing any of the `*.md` files or adding/changing an image **should** fire off an action to build and deploy the website. This GitHub action can be checked by navigating to the `Actions` page:
 
 ![github-actions-link](readme-images/github-actions-link.png)
 
@@ -41,7 +41,7 @@ The reason for this has to do with how `read the docs` processes images, but I d
 
 ## Manually deploying the website 
 
-If (for some reason) the github action does not fire, you can manually run it. First, on the `Actions` page, select the `Build and Deploy Static Mkdocs Documentation` workflow.  
+If (for some reason) the GitHub action does not fire, you can manually run it. First, on the `Actions` page, select the `Build and Deploy Static Mkdocs Documentation` workflow.  
 
 
 ![github-actions-select-workflow](readme-images/github-actions-select-workflow.png)
