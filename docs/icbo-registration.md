@@ -1,2 +1,2 @@
 # ICBO Registration
-Fill in registration details ...
+Fill in registration details.
