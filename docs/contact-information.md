@@ -1,2 +1,2 @@
 # Contact Information
-Fill in contact information ...
+Fill in contact information.
