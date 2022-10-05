@@ -1,4 +1,4 @@
-# Workshop Publication Requirements
+# Conference Proceeding Publication Requirements
 
 Conference submissions will be published in the [CEUR Workshop Proceedings](http://ceur-ws.org/). In order for this to happen, the following requirements must be satisfied.
 
