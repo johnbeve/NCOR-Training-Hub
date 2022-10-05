@@ -7,7 +7,7 @@ Below are some general instructions for how to add and edit website content. Onc
 
 ## Editing website content 
 
-The website content is contained in the `docs/` and `docs/images` directories. Editing any of the `*.md` files or adding/changing an image **should** fire off an action to build and deploy the website. This github action can be checked by navigating to the `Actions` page:
+The website content is contained in the `docs/`, `docs/images/`, `docs/papers/`, `docs/slides/`, and `docs/flash-talks/` directories. Editing any of the `*.md` files or adding/changing an image **should** fire off an action to build and deploy the website. This github action can be checked by navigating to the `Actions` page:
 
 ![github-actions-link](readme-images/github-actions-link.png)
 
@@ -28,14 +28,14 @@ Adding new webpage takes two steps:
 
 A new image is added to the website is done by simply saving a the image to the `docs/images/` directory. However, referencing the image from the `md` file is a bit nuanced.  
 
-If you reference the image using markdown syntax, you include the `images` directory in the path to the images. For example, in the `docs/submit-jbms-icbo.md` document, the reference to the submission type image is done like so:
+If you reference the image using markdown syntax, you include the `images` directory in the path to the images. For example, in the `docs/call-for-submissions.md` document, the reference to a image is done like so:
 ```
-![submission type](images/jbms-choose-article-type.png)
+![submission type](images/test-image.png)
 ```
 
-However, if you are customizing the image with an HTML `<img>` tag, you use the `../images` directory in the path to the image. For example, in the `docs/keynote-speakers.md` document, Chris Stoeckert's image is referenced like this:
+However, if you are customizing the image with an HTML `<img>` tag, you use the `../images` directory in the path to the image. For example, `src='../images/test-image.png'` is the path needed when setting the margins of an image like this:
 ```
-<img src='../images/chris-stoeckert.png' align='left' style='margin:10px 20px 0px 0px' />
+<img src='../images/test-image.png' align='left' style='margin:10px 20px 0px 0px' />
 ```
 The reason for this has to do with how `read the docs` processes images, but I don't know the details of why.
 
