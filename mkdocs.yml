@@ -1,4 +1,4 @@
-site_name: "ICBO-2022: International Conference on Biomedical Ontology"
+site_name: "ICBO: International Conference on Biomedical Ontology"
 theme:
   name: readthedocs
 nav:
@@ -8,15 +8,11 @@ nav:
   - Journal of Biomedical Semantics ICBO Thematic Series: submit-jbms-icbo.md
   - Workshops & Tutorials: workshops-and-tutorials.md
   - Workshop Publication Requirements: workshop-publication-requirements.md
-  - Michigan Week of Ontology and Semantic Web: michigan-week-of-ontology-and-semantic-web.md 
-  - CCBOT 2022 (joint conference): ccbot2022.md 
   - Registration: icbo-registration.md
   - ICBO Hotel Options: icbo-hotels.md
   - Travel to ICBO:  icbo-travel.md
-  - Sunday Morning Carpool: sunday-morning-carpool.md
   - Schedule: icbo-schedule.md
   - Papers and Poster Abstracts: papers-and-poster-abstracts.md
-  - Poster Awards: poster-awards.md
   - Contact Information: contact-information.md
   - Co-organizers: co-organizers.md
   - Program Committee: program-committee.md
