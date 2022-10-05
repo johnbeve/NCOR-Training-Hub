@@ -1,6 +1,6 @@
 # ICBO Conference Proceeding Publication Requirements
 
-**ICBO conference proceedings are often published in CEUR. Below, we have included an example language of requirements for this. Edit the content indicated by '<< >>' to suite your specific conference.**
+**ICBO conference proceedings are often published in CEUR. Below, we have included example language for the requirements to do this. Edit the content indicated by '<< >>' to suite your specific conference.**
 
 
 Conference submissions will be published in the [CEUR Workshop Proceedings](http://ceur-ws.org/). In order for this to happen, the following requirements must be satisfied.
