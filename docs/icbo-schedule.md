@@ -1,2 +1,2 @@
 # ICBO Schedule
-Fill in schedule details ...
+Fill in schedule details.
