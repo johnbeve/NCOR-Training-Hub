@@ -1,4 +1,5 @@
 site_name: "ICBO: International Conference on Biomedical Ontology"
+# repo_url: add info to link to your github repository
 theme:
   name: readthedocs
 nav:
