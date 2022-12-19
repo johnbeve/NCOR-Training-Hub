@@ -1,5 +1,6 @@
 site_name: "ICBO: International Conference on Biomedical Ontology"
-# repo_url: add info to link to your github repository
+# repo_url: https://github.com/ICBO-conference/icbo20XX # edit info to link to your github repository
+# edit_uri: '?query=root/icbo20XX/docs/' # edit uri to point to your github repository
 theme:
   name: readthedocs
 nav:
