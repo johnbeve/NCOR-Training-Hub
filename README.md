@@ -1,11 +1,6 @@
-# ICBO Template
-This repository is a template for creating ICBO conference repositories. Instructions for using this template to create a specific ICBO conference repository is included below. For more speci instructions, see the [GitHub instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for how to create a repository from a template.
+# National Center for Ontological Research Training Hub
+This repository hosts content for the NCOR Training hub website. 
 
-Once your repository has been created, you are free to configure your ICBO repisitory as you desire. Any suggestions or contributions on how to make the instructions for (this) the template repository are welcome. 
-
-## Using the template
-
-To create your repository, start by clicking the **Use this template** button:
 
 ![use-this-template-button](readme-images/github-use-template-button.png)
 
